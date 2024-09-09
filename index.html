@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/e4a8e4efac.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>My website</title>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" alt="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Webpage Designer</p>
+          <h1>Hi, I'm Santosh <br /><span>Acharya.</span></h1>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------about section---------------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/about.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, nulla
+              obcaecati nisi laboriosam, officia autem amet praesentium illo eum
+              placeat fuga corrupti quia beatae fugit aspernatur vero adipisci
+              corporis quis! Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Soluta consequatur earum, ab laborum officia quod
+              voluptatem. Cumque possimus quo nostrum repudiandae ratione
+              voluptas libero, distinctio tempora omnis unde consequuntur
+              assumenda.
+            </p>
+            <div class="tab-titles">
+              <p
+                class="tab-links active-link"
+                onclick="opentab(event, 'skills')"
+              >
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab(event, 'experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab(event, 'education')">
+                Education
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App Interface</li>
+                <li><span>Web Development</span><br />Web App Development</li>
+                <li>
+                  <span>App Development</span><br />Building Android/IOS apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2023-Current</span><br />Pegasus</li>
+                <li><span>2022-2023</span><br />FreeLancing</li>
+                <li><span>2022</span><br />React Intern at City Tech</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2017-2022</span><br />Nepal Engineering College</li>
+                <li><span>2015-2017</span><br />Bagmati Modern College</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- .......................Services.................................. -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus blanditiis quo nesciunt odit, ipsa dolorum quaerat quos
+              asperiores perferendis molestiae harum facere ex sit? Cumque
+              voluptatum aut architecto error dolorum.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus blanditiis quo nesciunt odit, ipsa dolorum quaerat quos
+              asperiores perferendis molestiae harum facere ex sit? Cumque
+              voluptatum aut architecto error dolorum.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus blanditiis quo nesciunt odit, ipsa dolorum quaerat quos
+              asperiores perferendis molestiae harum facere ex sit? Cumque
+              voluptatum aut architecto error dolorum.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ............................My Portfolio...................... -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./images/work1.jpg" alt="work1" />
+            <div class="layer">
+              <h3>Web Pages</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                nostrum, commodi autem laborum et animi maxime tempora natus
+              </p>
+              <a href="#"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/work2.jpg" alt="work2" />
+            <div class="layer">
+              <h3>Mobile App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Expedita veritatis aspernatur explicabo quos, eos assumenda quod
+              </p>
+              <a href="#"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/work3.jpeg" alt="work3" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Expedita veritatis aspernatur explicabo quos, eos assumenda quod
+              </p>
+              <a href="#"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+        <!-- .....................Contact Section.......................  -->
+        <section id="contact">
+          <div class="contact-container">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out if you have any questions, project ideas, or just want to say hello! I'd love to hear from you.</p>
+            
+            <ul class="contact-info">
+              <li><strong>Email:</strong> <a href="mailto:santosh9860476238@gmail.com"></a>santosh9860476238@gmail.com</li>
+              <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/feed/" target="_blank">https://www.linkedin.com/feed/</a></li>
+              <li><strong>GitHub:</strong> <a href="https://github.com/achsantosh1" target="_blank">github.com/achsantosh1</a></li>
+            </ul>
+            
+            <form class="contact-form">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="message" placeholder="Your Message" required></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </section>
+        
+      </div>
+    </div>
+  </body>
+</html>
